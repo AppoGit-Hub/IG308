@@ -2,12 +2,10 @@
          contentType="text/html; charset=UTF-8"%>
 <html>
 <head>
-    <title> Welcome </title>
+    <title>Welcome</title>
 </head>
 <body>
-<div>
- Welcome
-</div>
-
+    <div>Welcome</div>
+    <span>Vous avez ${age} an(s)</span>
 </body>
 </html>
