@@ -12,6 +12,7 @@ public class WelcomeController {
     @RequestMapping(method = RequestMethod.GET)
     public String home(Model model) {
         model.addAttribute("age", 8);
-        return "welcome";
+        model.addAttribute("title", "Welcome");
+        return "integrated:welcome";
     }
 }

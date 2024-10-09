@@ -8,6 +8,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 public class MainConfiguration implements WebMvcConfigurer {
+    /*
     @Bean
     public ViewResolver viewResolver () {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
@@ -15,4 +16,5 @@ public class MainConfiguration implements WebMvcConfigurer {
         resolver.setSuffix(".jsp");
         return resolver;
     }
+    */
 }
