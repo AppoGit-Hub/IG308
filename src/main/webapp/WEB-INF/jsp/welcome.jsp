@@ -5,7 +5,13 @@
     <title>${title}</title>
 </head>
 <body>
-    <div>Welcome</div>
-    <span>Vous avez ${age} an(s)</span>
+    <form:form
+        method="post"
+        action="/firstSpring/hello/send"
+        modelAttribute="magicKeyForm">
+        <form:label path="magicKey">Magic Key</form:label>
+        <form:input path="magicKey"/>
+        <form:button type="submit">Submit</form:button>
+    </form:form>
 </body>
 </html>
